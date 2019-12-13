@@ -1,0 +1,33 @@
+name: mobile_credential
+description: A new Flutter application.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  flutter_svg: 0.14.3
+  vibration: 1.2.2
+  audioplayers: ^0.13.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  camera: ^0.5.2
+  http: ^0.12.0
+  fast_qr_reader_view: ^0.1.5
+  shared_preferences: ^0.5.2
+  json_annotation: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/Logo_Plasticard_RGB.svg
+    - assets/Logo_Plasticard_RGB.png
+    - assets/cards.svg
+    - assets/lines.png
+    - assets/beep.mp3
